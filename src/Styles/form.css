@@ -1,0 +1,60 @@
+/* form.css */
+
+/* MainForm styles */
+.mainWrapper {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* AddForm styles */
+.addFormWrapper {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+}
+
+.titleLabel {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.inputWrapper {
+    margin-bottom: 15px;
+}
+
+.inputLabel {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* ShowForm styles */
+.showFormWrapper {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+}
+
+.formWrapper {
+    margin-bottom: 20px;
+}
+
+.formField {
+    margin-bottom: 15px;
+}
+
+/* Common button styles */
+.submitButton {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submitButton:hover {
+    background-color: #45a049;
+}
